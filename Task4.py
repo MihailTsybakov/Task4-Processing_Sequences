@@ -48,7 +48,6 @@ def Autotest():
     Test_length = 0
     test_name = 'C:\\Users\\mihai\\Desktop\\progy\\test.txt'
     Test_length = Function(test_name)
-    print("tlen is",Test_length + 1)
     if (Test_length + 1== 3):
         print("Autotest passed successfully")
     else:
