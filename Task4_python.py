@@ -7,6 +7,8 @@ def Sequence(filename):
     temp_max = 0
     for line in file:
         length = len(line)
+        if (length == 0):
+            return -1
         prev_integer = ''
         index = 0
         flag = 0
